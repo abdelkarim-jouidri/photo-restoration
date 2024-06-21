@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import base64
 load_dotenv()
 
-with open(r"C:\Users\hp\Documents\testCases\comic.png", 'rb') as file:
+with open(r"C:\Users\hp\Documents\testCases\Justin_Timberlake_crop.png", 'rb') as file:
   data = base64.b64encode(file.read()).decode('utf-8')
   image = f"data:application/octet-stream;base64,{data}"
 
